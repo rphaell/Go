@@ -2,10 +2,8 @@ package main
 
 import (
 	"fmt"
-	"math/big"
-
-	// "math/rand"
-	"crypto/rand"
+	"math/rand"
+	"time"
 )
 
 func main() {
@@ -15,11 +13,14 @@ func main() {
 
 	// fmt.Println("The sum is: ", mynumberOne+int(mynumbertwo))
 
-	// random number
-	// rand.Seed(time.Now().UnixNano())
-	// fmt.Println(rand.Intn(6) + 1)
+	// criando numero random de 1 a 6
+	max := 6
+	min := 1
+	rand.Seed(time.Now().UnixNano())
+	v := rand.Intn(max-min) + min
+	fmt.Println(v)
 
 	// random from crypto
-	myRandomNumber, _ := rand.Int(rand.Reader, big.NewInt(5))
-	fmt.Println(myRandomNumber)
+	// myRandomNumber, _ := rand.Int(rand.Reader, big.NewInt(5))
+	// fmt.Println(myRandomNumber)
 }
