@@ -34,6 +34,7 @@ func main() {
 	numberOfUser := 300
 	fmt.Println(numberOfUser)
 
+	// public const
 	fmt.Println(LoginToken)
 	fmt.Printf("Variable type is: %T \n", LoginToken)
 
