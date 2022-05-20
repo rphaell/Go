@@ -18,4 +18,5 @@ func main() {
 
 	var vegList = [3]string{"potato", "beans", "mushrooms"}
 	fmt.Println("vegList is: ", len(vegList))
+
 }
