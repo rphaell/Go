@@ -13,6 +13,8 @@ func main() {
 
 	//imprimir a array
 	fmt.Println("fruit list is: ", fruitList)
+	fruitList[1] = "green apple"
+	fmt.Println(fruitList)
 	//imprimir o length da array
 	fmt.Println("fruit list is: ", len(fruitList))
 
