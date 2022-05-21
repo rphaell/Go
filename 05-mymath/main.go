@@ -20,6 +20,12 @@ func main() {
 	v := rand.Intn(max-min) + min
 	fmt.Println(v)
 
+	//ou...
+
+	rand.Seed(time.Now().UnixNano())
+	diceNumber := rand.Intn(6) + 1
+	fmt.Println("Value of dice is :", diceNumber)
+
 	// random from crypto
 	// myRandomNumber, _ := rand.Int(rand.Reader, big.NewInt(5))
 	// fmt.Println(myRandomNumber)
