@@ -8,13 +8,13 @@ func main() {
 	fmt.Println("welcome to slices!")
 
 	var fruitList = []string{"apple", "orange"}
-	// fmt.Println("type of fruitList is :", len(fruitList))
+	fmt.Println("type of fruitList is :", len(fruitList))
 
 	fruitList = append(fruitList, "mango", "banana")
-	// fmt.Println(fruitList)
+	fmt.Println(fruitList)
 
 	fruitList = append(fruitList[1:3])
-	// fmt.Println(fruitList)
+	fmt.Println(fruitList)
 
 	highScore := make([]int, 4)
 
@@ -41,5 +41,10 @@ func main() {
 	var index int = 1
 	courses = append(courses[:index], courses[index+1:]...)
 	fmt.Println(courses)
+
+	// var fruitList = []string{"apple", "orange", "peach","banana"}
+	// var remove int = 1
+	// fruitList = append(fruitList[:remove], fruitList[remove+1:]...)
+	// fmt.Println(fruitList)
 
 }

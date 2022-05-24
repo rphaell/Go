@@ -18,16 +18,18 @@ func main() {
 
 	fmt.Println(result)
 
-	if 10%2 == 0 {
-		fmt.Println("Number is even")
+	numero := 4
+	if numero%2 == 0 {
+		result = "par"
 	} else {
-		fmt.Println("Number is odd")
+		result = "impar"
 	}
+	fmt.Println(result)
 
 	if num := 20; num < 10 {
-		fmt.Println("number is less than 10")
+		fmt.Println("nota ruim")
 	} else {
-		fmt.Println("number is greater than 10")
+		fmt.Println("nota boa")
 	}
 
 	// if err != nil {

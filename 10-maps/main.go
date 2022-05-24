@@ -10,7 +10,11 @@ func main() {
 
 	Languages["JS"] = "Javascript"
 	Languages["RB"] = "Ruby"
-	Languages["PY"] = "Python"
+	Languages["Po"] = "Pytn"
+	Languages["PY"] = "Pytn"
+	Languages["PY"] = "Pton"
+	Languages["PY"] = "Pyton"
+	Languages["PY"] = "Pthon"
 
 	//pegando apenas um valor da key entre os colchetes
 	fmt.Println(Languages)
